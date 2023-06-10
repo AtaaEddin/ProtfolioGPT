@@ -20,7 +20,7 @@ Phone number: +243 323 43 55
 \
 Email: Sam@Mojo.com
 \
-Profile picture: https://www.wilsoncenter.org/sites/default/files/styles/large/public/media/images/person/james-person-1.jpg<
+Profile picture: https://www.wilsoncenter.org/sites/default/files/styles/large/public/media/images/person/james-person-1.jpg
 
 Output:
 
