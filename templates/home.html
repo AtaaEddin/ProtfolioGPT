@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-5 text-center">{{ title }}</h1>
+      <div class="text-center">
+        <form method="POST">
+          <div class="mb-2">
+            <textarea
+              rows="10"
+              cols="60"
+              name="prompt"
+              value=""
+              placeholder="Write about yourself"
+            ></textarea>
+          </div>
+          <div class="mb-2">
+            <button class="btn btn-primary">Generate Protfolio Website</button>
+          </div>
+        </form>
+      </div>
+      <div class="mt-5">
+        <h2>Prompt example:</h2>
+        <p>My name is Sam, I'm a software engineer, I've 5+ years experince in the field.</br> I've worked in large companies such as Google, Microsoft,and Amazon.</br> I can speak three languages fluently: English, Spanish, and Arabic.</br> For my hobbies: Playing piano, Swimming,and Climbing.</br>My address: NewWork, USA.</br>Phone number: +243 323 43 55</br>Email: Sam@Mojo.com</br>Profile picture: https://www.wilsoncenter.org/sites/default/files/styles/large/public/media/images/person/james-person-1.jpg</p>
+      </div>
+    </div>
+    <!-- Include Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
